@@ -21,4 +21,4 @@ Command to launch the container:
 docker build -t rahmahama . && docker run --rm -it -p 5000:5000 rahmahama
 ```
 
-# rahmahamaIA
+# rahmahama IA
