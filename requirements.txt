@@ -4,6 +4,3 @@ Flask==1.1.2
 Flask-Cors==3.0.9
 cv2
 tensorflow
-tensorflow-gpu
-opencv-python
-matplotlib
