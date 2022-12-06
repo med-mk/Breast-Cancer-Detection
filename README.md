@@ -9,7 +9,7 @@ The Mammograms Datasets used : https://drive.google.com/drive/folders/1XvKmNlAto
 ### Train  Model
 We train our model in Google Colab
 
-[![Open In Colab](https://colab.research.google.com/github/med-mk/rahmahamaIA/Mini_Projet_IA.ipynb)](https://colab.research.google.com/github/med-mk/rahmahamaIA/Mini_Projet_IA.ipynb)
+https://colab.research.google.com/github/med-mk/rahmahamaIA/Mini_Projet_IA.ipynb
 
 
 ### Deploy Model
