@@ -1,6 +1,6 @@
+opencv-python
+tensorflow
 torch==1.7.0
 torchvision==0.8.1
 Flask==1.1.2
 Flask-Cors==3.0.9
-cv2
-tensorflow
