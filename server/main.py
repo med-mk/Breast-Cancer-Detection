@@ -25,17 +25,17 @@ def predict():
     img_path = "static" + f.filename
     f.save(img_path)
     img = cv2.imread(img_path)
-    resize = tf.image.resize(img, (256,256))
-    yhat = model.predict(np.expand_dims(resize/255, 0))
+    resize = tf.image.resize(img, (256,256)) # size accepted by the model
+    yhat = model.predict(np.expand_dims(resize/255, 0)) # make the matrix items vary between 0 and 1
     type= 'Normal'
-    score = yhat[0][2]     # [[0.7 0.2 0.1]]
+    score = yhat[0][2]     # [[0.2 0.7 0.1]]
     if yhat[0][0]>yhat[0][1] and yhat[0][0]>yhat[0][2]:
         type = 'Benign'
         score = yhat[0][0]
     elif yhat[0][1]>yhat[0][2]:
         type = 'Malignant'
         score = yhat[0][1]
-    type
+        
     return f'{type} with a precision of {score*100:.1f}%'
 
 if __name__=='__main__':
