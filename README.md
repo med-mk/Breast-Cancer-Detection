@@ -9,7 +9,7 @@ The Mammograms Datasets used : https://drive.google.com/drive/folders/1XvKmNlAto
 ### Train  Model
 We train our model in Google Colab
 
-https://colab.research.google.com/github/med-mk/rahmahamaIA/Mini_Projet_IA.ipynb
+https://colab.research.google.com/github/med-mk/Breast-Cancer-Detection/Mini_Projet_IA.ipynb
 
 
 ### Deploy Model
@@ -18,7 +18,6 @@ Deploying your on model is a easy as replacing the model (server/mammogramsclass
 
 Command to launch the container:
 ```bash
-docker build -t rahmahama . && docker run --rm -it -p 5000:5000 rahmahama
+docker build -t Breast-Cancer-Detection . && docker run --rm -it -p 5000:5000 Breast-Cancer-Detection
 ```
 
-# rahmahama IA
